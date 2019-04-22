@@ -6,7 +6,7 @@ public class User {
 
    // account, password, name, email, age.
      private String account;
-     private Password password;
+     private String password;
      private String name;
      private String email;
      private int age;
@@ -14,7 +14,7 @@ public class User {
     public User() {
     }
 
-    public User(String account, Password password, String name, String email, int age) {
+    public User(String account, String password, String name, String email, int age) {
         this.account = account;
         this.password = password;
         this.name = name;
@@ -30,11 +30,11 @@ public class User {
         this.account = account;
     }
 
-    public Password getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(Password password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 

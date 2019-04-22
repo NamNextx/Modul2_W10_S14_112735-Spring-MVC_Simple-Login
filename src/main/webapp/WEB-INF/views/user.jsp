@@ -12,5 +12,23 @@
 </head>
 <body>
 
+<h1> Wellcome back ${user.name}</h1>
+<h3> Now you can see your information</h3>
+<fieldset>
+    <legend>Info</legend>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td>${user.name}</td>
+        </tr>
+            <td>Mail:</td>
+            <td>${user.email}</td>
+        <tr>
+            <td>Age: </td>
+            <td>${user.age}</td>
+        </tr>
+    </table>
+</fieldset>
+
 </body>
 </html>
